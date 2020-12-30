@@ -8,6 +8,7 @@ public class Autobox {
 		
 		int i;
 		obj1 = 100;
+		
 		System.out.println("The First Integer " + obj1);
 		System.out.println("The Changed Integer " + (obj1 * 100));
 		
@@ -21,6 +22,12 @@ public class Autobox {
 		i = obj2;
 		
 		System.out.println("The I value : " + i);
+		
+		Integer k = 1000;
+		int j = k.byteValue();
+		System.out.println("Byte value : " + j);
+		
+		System.out.write('A');
 	}
 
 }
